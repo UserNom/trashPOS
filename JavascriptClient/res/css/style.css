@@ -1,0 +1,151 @@
+﻿#scanned {
+	background-image: url('../images/scan.png');
+	background-color: rgba(255,0,0,0.5);
+	height: 100px;
+	width: 300px;
+	border: none;
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	text-transform: uppercase;
+	padding: 0px;
+}
+
+	#scanned:disabled {
+		background-color: rgba(255,0,0,0.5) !important;
+		background-image: none;
+	}
+
+	#scanned:focus {
+		background-color: rgba(0,255,0,0.5);
+	}
+
+#page {
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+}
+
+#connectionStatus{
+	float:right;
+}
+
+#content {
+	position: absolute;
+	top: 100px;
+	bottom: 110px;
+	left: 0px;
+	right: 0px;
+	background-color: rgba(0,0,0,0.05);
+}
+
+#left {
+	//float:left;
+	//width:600px;
+	//background-color:pink;
+	height: 100%;
+	overflow: auto;
+}
+
+#right {
+	float: right;
+	width: 450px;
+	height: 100%;
+	background-color: #dedede;
+	overflow: auto;
+}
+
+#scanControls {
+	position: absolute;
+	height: 100px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	/*background-color:#999;*/
+	padding: 5px;
+}
+
+#scanFormContainer {
+	float: left;
+}
+
+#submitOrder {
+	float: right;
+	background: rgba(255,136,0,0.5);
+	height: 100px;
+	border-radius: 10px;
+	font-size: 40px;
+	padding: 10px;
+	border: none;
+}
+
+	#submitOrder:hover {
+		background: rgba(255,136,0,1);
+	}
+
+input[name="BackorderedShipMethod"] {
+	display: none;
+}
+
+	input[name="BackorderedShipMethod"] + label {
+		display: inline-block;
+		padding: 5px;
+		background-color: #eee;
+		border-left: 1px solid #dedede;
+		border-right: 1px solid #aaa;
+	}
+
+	input[name="BackorderedShipMethod"]:checked + label {
+		background-color: rgba(10,80,20,0.8);
+		color: white;
+	}
+
+#orderActions button {
+	height: 50px;
+	border-radius: 10px;
+	font-size: 30px;
+	padding: 10px;
+	border: none;
+	margin: 10px;
+	width: 90%;
+}
+
+#productList {
+	font-family: monospace;
+	font-size: 12px;
+	line-height: 0px;
+	list-style: none;
+}
+
+	#productList [data-status='NO_INFO'] {
+		color: red;
+	}
+
+	#productList [data-status='CUSTOM']:before {
+		content: "***";
+	}
+
+	#productList [data-status='FORDELIVERY']:before {
+		content: "BACK-ORDERED ";
+	}
+
+#searchResultsContainer {
+	height: 300px;
+	overflow: auto;
+	margin-top: 15px;
+	padding-top: 10px;
+	border-top: 1px solid #dedede;
+}
+
+li.addedItem:before {
+	color: green;
+	content: "X ";
+}
+
+.liveInv {
+	display: inline-block;
+	float: right;
+	width: 150px;
+}

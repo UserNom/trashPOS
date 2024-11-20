@@ -1,0 +1,6 @@
+C:\Users\SysUser\documents\visual studio 2013\Projects\SelfHostedWebScanner\JavascriptClient\bin\JavascriptClient.dll.config
+C:\Users\SysUser\documents\visual studio 2013\Projects\SelfHostedWebScanner\JavascriptClient\bin\JavascriptClient.dll
+C:\Users\SysUser\documents\visual studio 2013\Projects\SelfHostedWebScanner\JavascriptClient\bin\JavascriptClient.pdb
+C:\Users\SysUser\documents\visual studio 2013\Projects\SelfHostedWebScanner\JavascriptClient\obj\Debug\JavascriptClient.csprojResolveAssemblyReference.cache
+C:\Users\SysUser\documents\visual studio 2013\Projects\SelfHostedWebScanner\JavascriptClient\obj\Debug\JavascriptClient.dll
+C:\Users\SysUser\documents\visual studio 2013\Projects\SelfHostedWebScanner\JavascriptClient\obj\Debug\JavascriptClient.pdb

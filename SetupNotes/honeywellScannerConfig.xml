@@ -1,0 +1,7 @@
+<PointOfServiceConfig Version="1.0">
+    <ServiceObject Type="Scanner" Name="Honeywell" Override="yes">
+        <HardwareId From="HID\VID_0536&amp;PID_0207"
+                    To="HID\VID_0536&amp;PID_0207&amp;REV_0000" /> 
+    </ServiceObject>
+	<!-- http://www.yortondotnet.com/2009/08/creating-xml-configuration-files-for.html -->
+</PointOfServiceConfig>

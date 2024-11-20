@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SelfHostedWebScanner</name>
+    </assembly>
+    <members>
+        <member name="M:SelfHostedWebScanner.DeviceInfoWrapper.IsDeviceInfoOf(Microsoft.PointOfService.PosCommon)">
+            <summary>
+            Gets the Boolean value that indicates wether a DeviceInfo instance applies to the specified service object
+            </summary>
+            <param name="serviceObject"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SelfHostedWebScanner.DeviceInfoWrapper.GetMatchingDeviceInfoFromCollection(Microsoft.PointOfService.DeviceCollection)">
+            <summary>
+            Gets the matching DeviceInfo instance from the specified DeviceCollection.
+            Returns null if none is found.
+            </summary>
+            <param name="c"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SelfHostedWebScanner.Printer.printText(System.String)">
+            <summary designerfunction="true">
+            I believe this function prints text. Try it and see... 
+            </summary>
+            <param name="text">That's the text you want to print.</param>
+            
+        </member>
+    </members>
+</doc>

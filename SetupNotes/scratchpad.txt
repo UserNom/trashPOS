@@ -1,0 +1,30 @@
+Managed Debugging Assistant 'PInvokeStackImbalance' has detected a problem in 'C:\Users\SysUser\Documents\Visual Studio 2013\Projects\ConsoleApplication1\bin\Debug\ConsoleApplication.vshost.exe'.
+
+Additional information: A call to PInvoke function 'ZebraCPCLSO!PosPrinterSO.NativeMethods::WaitForSingleObject' has unbalanced the stack. This is likely because the managed PInvoke signature does not match the unmanaged target signature. Check that the calling convention and parameters of the PInvoke signature match the target unmanaged signature.
+
+	
+	
+  <appSettings>
+    <add key ="owin:AutomaticAppStartup" value="false" />
+    <add key="owin:appStartup" value="WebScanner.Startup.Configuration" />
+  </appSettings>
+  
+  
+  $.connection.posHub.server.getScanners().done(function (result) { scannerList=result; })
+  $.connection.posHub.server.claimScanner(2)
+  $.connection.posHub.server.claimPrinter(1)
+  
+  
+Lightbox2().builder(oposConfig).setCloseMethod(function(){
+	var closeButton=document.createElement('button');
+	closeButton.innerHTML="X";
+	closeButton.onclick=this.hide;
+	closeButton.style='color:#fff;background:#d00;float:right;';
+	var br=document.createElement('br');
+	br.style='clear:both;margin-bottom:10px;';
+	this.getTopBar().appendChild(closeButton);
+	this.getTopBar().appendChild(br);
+}).build()
+
+  
+  

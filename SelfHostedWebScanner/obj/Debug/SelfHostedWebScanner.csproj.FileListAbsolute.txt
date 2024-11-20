@@ -1,0 +1,1 @@
+c:\users\sysuser\documents\visual studio 2013\Projects\SelfHostedWebScanner\SelfHostedWebScanner\bin\Debug\SelfHostedWebScanner.exe.config

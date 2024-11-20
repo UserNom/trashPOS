@@ -1,0 +1,32 @@
+Follow the SignalR self-host tutorial (console project, nuGet whatever). Enable CORS in Startup class
+Get POS for .Net (latest version) from Microsoft and install all of it
+Add the dll as a reference to your project: C:\Program Files (x86)\Microsoft Point Of Service\SDK\Microsoft.PointOfService.dll
+Make sure the project is configured to compile for x86 (anycpu will not work)
+Install OPOS drivers for devices, configure devices using driver/utilities provided by mfg/create config Xml file (see HoneywellScannerConfig)
+Handle all the exceptions...
+
+MS documentation for POS for .Net v1.14
+	https://msdn.microsoft.com/en-us/library/bb429024%28v=winembedded.4%29.aspx
+
+SignalR self host:
+	http://www.asp.net/signalr/overview/deployment/tutorial-signalr-self-host
+
+Getting started with SignalR
+	http://www.asp.net/signalr/overview/getting-started/tutorial-getting-started-with-signalr
+	http://www.asp.net/signalr/overview/guide-to-the-api/hubs-api-guide-server#connectionlifetime
+	http://stackoverflow.com/questions/25533019/signalr-always-downgraded-to-server-sent-events-in-chrome-firefox
+	
+Created HoneywellScannerConfig.xml to enable plug and play for the scanner. 
+	See http://www.yortondotnet.com/2009/08/creating-xml-configuration-files-for.html
+	https://msdn.microsoft.com/en-us/library/bb428988%28WinEmbedded.11%29.aspx
+	http://www.yortondotnet.com/2009/08/pos-net-series-post-3-plug-and-pray.html
+
+	
+This series might be a good (slightly outdated?) source of info:
+	http://www.yortondotnet.com/2009/07/pos-net-series-post-1-introduction-good.html
+	
+Deploying POS for .Net
+	http://www.yortondotnet.com/2009/09/pos-net-series-post-7-deploying-pos-net.html
+	
+Monroe Common Control Objects - No clue, might be useful, might not
+	http://monroecs.com/oposccos.htm
